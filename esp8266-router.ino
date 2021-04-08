@@ -27,7 +27,7 @@ IPAddress SOFT_AP_DNS2(1, 0, 0, 1);
 // Rename Your ESP name to find easily on your router
 const char *espHostname = SOFT_AP_SSID; // By default, hostname is AP SSID but if you want you can set by manual by replace SOFT_AP_SSID with "YourHostName";
 
-#define NAT_Enabled false
+#define NAT_Enabled true
 
 #if NAT_Enabled  && !LWIP_IPV6
 #define NAPT 1000
